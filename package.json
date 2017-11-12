@@ -1,0 +1,20 @@
+{
+  "name": "test-electron",
+  "version": "0.1.0",
+  "description": "Test Electron app",
+  "main": "index.js",
+  "repository": "git@github.com:yamalight/bpjs-electron.git",
+  "author": "Beau Ayres",
+  "license": "MIT",
+  "scripts": {
+    "start": "electron .",
+    "lint": "eslint **/*.js"
+  },
+  "devDependencies": {
+    "electron": "^1.6.2",
+    "eslint": "^3.19.0",
+    "eslint-config-prettier": "^1.5.0",
+    "eslint-plugin-prettier": "^2.0.1",
+    "prettier": "^0.22.0"
+  }
+}
